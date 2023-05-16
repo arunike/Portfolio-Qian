@@ -1,0 +1,19 @@
+{
+    "name": "Qian Chen | Portfolio",
+    "icons": [
+        {
+            "src": "%PUBLIC_URL%/favicon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "%PUBLIC_URL%/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#00bfbf",
+    "background_color": "#171c28"
+}
