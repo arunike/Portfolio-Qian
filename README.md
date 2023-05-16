@@ -7,7 +7,7 @@
 
 ## Author
 <p>
-    <img href="/public/LinkedinQRCode.gif" alt="LinkedinQRCode" width="100" height="100">
+    <img src="https://github.com/arunike/arunike.github.io/blob/main/src/asset/imgs/home-main.png" alt="Arunike" width="200" height="200">
     <ul>
         <li><a href="https://github.com/arunike">Github</a> </li> <br>
         <li><a href="https://github.com/arunike">LinkedIn</a> </li>
