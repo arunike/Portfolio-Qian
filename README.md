@@ -7,8 +7,8 @@
 
 ## Author
 <p>
-    <img href="https://github.com/arunike/arunike.github.io/blob/main/src/asset/imgs/home-main.png" alt="Arunike" width="100" height="100">
-    <ul style="list-style-type:none">
+    <img href="/public/LinkedinQRCode.gif" alt="LinkedinQRCode" width="100" height="100">
+    <ul>
         <li><a href="https://github.com/arunike">Github</a> </li> <br>
         <li><a href="https://github.com/arunike">LinkedIn</a> </li>
     <ul>
