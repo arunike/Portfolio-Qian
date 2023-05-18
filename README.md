@@ -10,6 +10,6 @@
     <img src="https://github.com/arunike/arunike.github.io/blob/main/src/asset/imgs/home-main.png" alt="Arunike" width="200" height="200">
     <ul>
         <li><a href="https://github.com/arunike">Github</a> </li> <br>
-        <li><a href="https://github.com/arunike">LinkedIn</a> </li>
+        <li><a href="https://www.linkedin.com/in/richiezhou/">LinkedIn</a> </li>
     <ul>
 </p>
