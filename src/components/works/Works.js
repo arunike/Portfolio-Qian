@@ -1,14 +1,12 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import { useState } from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
-
-import './Works.css';
-
-// Import ../../assets/recentprojects/
-import a from '../../assets/work/about.png';
+import './../../style.css';
+import haitong from '../../assets/work/haitong.png';
+import zhongtai from '../../assets/work/zhongtai.png';
+import orient from '../../assets/work/orient.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -31,7 +29,7 @@ export const Works = () => {
       location: "Shenzhen, China",
       description: `Assisted sales manager in maintaining fund clients and conducting routine research services, as well as handling administrative tasks. Collaborated with sales manager in planning and organizing various marketing activities for fund clients.`,
       alter: 'Intern 1',
-      image: `${a}`,
+      image: `${haitong}`,
     },
     { 
       id: 2,
@@ -40,7 +38,7 @@ export const Works = () => {
       location: "Jinan, China",
       description: `Conducted research using Wind and Ifind databases to gather industry market size information and company data. Utilized SQL for data integration and analysis, supporting the creation of informative charts and graphs. Performed valuation analysis on companies using DCF model and PE valuation method. Independently completed five research reports on listed companies.`,
       alter: 'Intern 1',
-      image: `${a}`,
+      image: `${zhongtai}`,
     },
     { 
       id: 3, 
@@ -49,7 +47,7 @@ export const Works = () => {
       location: "Shanghai, China",
       description: `Assisted in financial verification projects, independently responsible for verifying personal bank transactions of over 50 executives and key personnel. Conducted comprehensive checks on company and peripheral bank transactions, meticulously recording each transaction in Excel. Compiled and organized thousands of transactions to ensure accuracy and completeness.`,
       alter: 'Intern 3',
-      image: `${a}`,
+      image: `${orient}`,
     },
   ]);
 
@@ -62,6 +60,7 @@ export const Works = () => {
             <div className="__img_wrapper">
               <img src={ project.image } alt={ project.alter }/>
             </div>
+            
             <div className="__content_wrapper">
               <h3 className="title">
                 <TextDecrypt text={ project.id + '. ' + project.title } />

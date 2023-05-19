@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 import { FirstName, LastName } from "../../utils/getName";
 
-import './About.css';
+import '../../style.css';
 
 import profile from '../../assets/profile.png';
 

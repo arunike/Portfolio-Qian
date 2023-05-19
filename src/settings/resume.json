@@ -1,21 +1,14 @@
 {
     "basics": {
         "name": "Qian Chen",
-        "picture": "../../src/assets/favicon.png",
         "job1": "Investment Banking",
         "job2": "Intern",
         "profiles": [
             {
                 "network": "LinkedIn",
-                "username": "Richie",
+                "username": "Qian Chen",
                 "url": "https://www.linkedin.com/in/richiezhou/",
                 "x_icon": "fab fa-linkedin-in"
-            },
-            {
-                "network": "GitHub",
-                "username": "Arunike",
-                "url": "https://github.com/arunike",
-                "x_icon": "fab fa-github"
             }
         ]
     }

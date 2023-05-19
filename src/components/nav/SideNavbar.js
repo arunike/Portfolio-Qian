@@ -4,7 +4,7 @@ import React from "react";
 import { Typography } from "@material-ui/core";
 import { useState } from "react";
 
-import "./SideNavbar.css";
+import "../../style.css";
 
 export const SideNavbar = () => {
   const [activeNav, setActiveNav] = useState('#');

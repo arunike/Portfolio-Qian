@@ -10,14 +10,14 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Richie Zhou</h3>
+          <h3>Designed and Developed by <a href="https://arunike.github.io/" style={{ color: "#c770f0", textDecoration: "none" }}>Richie Zhou</a> </h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Richie</h3>
         </Col>
         <Col md="4">
-          <ul className="footer-icons" style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
-            <li className="social-icons">
+          <ul style={{ display: "flex", justifyContent: "center", marginTop: "10px"}}>
+            <li style={{height: "30px", width: "30px"}}>
               <a
                 href="https://github.com/arunike"
                 style={{ color: "white" }}
@@ -27,7 +27,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            <li>
               <a
                 href="https://www.linkedin.com/in/richiezhou/"
                 style={{ color: "white" }}

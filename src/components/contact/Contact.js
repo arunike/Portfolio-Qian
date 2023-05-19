@@ -3,7 +3,7 @@ import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Email, LinkedIn } from "@material-ui/icons";
 
-import './Contact.css';
+import '../../style.css';
 
 const useStyles = makeStyles((theme) => ({
   main: {

@@ -8,7 +8,10 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
         fill: theme.palette.primary.main,
     },
-    transition: "all 0.5s ease",
+    height: "40px",
+    width: "40px",
+    margin: "0 5px",
+    marginTop: "5px",
   },
 }));
 
@@ -16,6 +19,6 @@ export const Logo = () => {
     const classes = useStyles();
 
     return (
-        <img src={LogoSVG} alt="Logo" className={classes.svgHover} />
+        <a href="/"> <img src={LogoSVG} alt="logo" className={classes.svgHover} /> </a>
     );
 };
