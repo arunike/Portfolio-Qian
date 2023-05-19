@@ -2,7 +2,7 @@
 
 ## About
 <p>
-    This is a portfolio website for Chen Qian. It is built with JavaScript with React and deployed using Github Pages. The main purpose of this website is to showcase Qian's work experiences and skills. The structure of the website is as follows: <br>
+    This is a portfolio website for Qian Chen. It is built with JavaScript with React and deployed using Github Pages. The main purpose of this website is to showcase Qian's work experiences and skills. The structure of the website is as follows: <br>
     <ul>
         <li>Home section: a brief introduction of Qian</li>
         <li>About me section: a list of skills that Qian has</li>
