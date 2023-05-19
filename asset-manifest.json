@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e642d6c.css",
-    "main.js": "/static/js/main.5a9fd349.js",
+    "main.css": "/static/css/main.8e8031b7.css",
+    "main.js": "/static/js/main.0e4cb8fc.js",
     "static/js/333.771c2324.chunk.js": "/static/js/333.771c2324.chunk.js",
+    "static/media/profile.png": "/static/media/profile.6de89fa0d1b85ad939c7.png",
     "static/media/resume_2023.pdf": "/static/media/resume_2023.aed2aaccddb8666a14c4.pdf",
-    "static/media/about.png": "/static/media/about.2446afafd9f25bdf702c.png",
+    "static/media/favicon.png": "/static/media/favicon.14946fc40a244546e5ae.png",
+    "static/media/zhongtai.png": "/static/media/zhongtai.1b374b23782ed77490b2.png",
+    "static/media/orient.png": "/static/media/orient.89e1cd8539f97e8da9bd.png",
+    "static/media/haitong.png": "/static/media/haitong.9b4f89af445767bc6c1c.png",
     "index.html": "/index.html",
-    "main.5e642d6c.css.map": "/static/css/main.5e642d6c.css.map",
-    "main.5a9fd349.js.map": "/static/js/main.5a9fd349.js.map",
+    "main.8e8031b7.css.map": "/static/css/main.8e8031b7.css.map",
+    "main.0e4cb8fc.js.map": "/static/js/main.0e4cb8fc.js.map",
     "333.771c2324.chunk.js.map": "/static/js/333.771c2324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e642d6c.css",
-    "static/js/main.5a9fd349.js"
+    "static/css/main.8e8031b7.css",
+    "static/js/main.0e4cb8fc.js"
   ]
 }
