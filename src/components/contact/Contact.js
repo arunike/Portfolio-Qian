@@ -32,7 +32,7 @@ export const Contact = () => {
             <br />
             <LinkedIn />
             <h4 style={{display: "inline-flex", fontSize: '1.6em'}}>
-              <a href="https://www.linkedin.com/in/richiezhou/">linkedin.com/in/richiezhou/</a>
+              <a href="https://www.linkedin.com/in/richiezhou/">linkedin.com/in/elizaqchen/</a>
             </h4>
           </div>
         </Container>

@@ -19,11 +19,14 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a master student studying economics at`;
+  const aboutme = `I'm ${FirstName} ${LastName}, a master student studying economics at Boston University. 
+  Throughout my academic and professional journey, I've delved deep into equity research, client relations, and financial management. 
+  Beyond these roles, I've successfully spearheaded and participated in high-stake . 
+  I am adept with several finance-centric software tools and am fluent in both Mandarin and English.`;
 
   return (
     <section id="about">
-      <Container component="main" className={classes.main} maxWidth="md">
+      <Container component="main" className={classes.main}>
         <div className="about">
           <div className="_img"
             style={{ 
@@ -31,6 +34,7 @@ export const About = () => {
               backgroundSize: 'contain',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
+              maxWidth: '100%',
             }}
           >
           </div>

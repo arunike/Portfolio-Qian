@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const Works = () => {
   const classes = useStyles();
-  const [projects, setProjects] = useState([
+  const [experiences, setexperiences] = useState([
     { 
       id: 1,
       title: 'Agency Sales Assistant',
@@ -45,7 +45,7 @@ export const Works = () => {
       title: 'Securities Intern', 
       name: "Orient Securities Investment Banking",
       location: "Shanghai, China",
-      description: `Assisted in financial verification projects, independently responsible for verifying personal bank transactions of over 50 executives and key personnel. Conducted comprehensive checks on company and peripheral bank transactions, meticulously recording each transaction in Excel. Compiled and organized thousands of transactions to ensure accuracy and completeness.`,
+      description: `Assisted in financial verification experiences, independently responsible for verifying personal bank transactions of over 50 executives and key personnel. Conducted comprehensive checks on company and peripheral bank transactions, meticulously recording each transaction in Excel. Compiled and organized thousands of transactions to ensure accuracy and completeness.`,
       alter: 'Intern 3',
       image: `${orient}`,
     },
@@ -55,7 +55,7 @@ export const Works = () => {
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
         <h1 style={{ fontSize: '3.0em' }}>Recent Experiences</h1>
-        {projects.map((project) => (
+        {experiences.map((project) => (
           <div className="project" key={ project.id }>
             <div className="__img_wrapper">
               <img src={ project.image } alt={ project.alter }/>
